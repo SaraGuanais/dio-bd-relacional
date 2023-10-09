@@ -1,9 +1,9 @@
 -- Adicionar colunas de endereço à tabela "Usuarios"
 ALTER TABLE Usuarios
 ADD rua VARCHAR(100),
-ADD numero VARCHAR(10),
-ADD cidade VARCHAR(50),
-ADD estado VARCHAR(50);
+ADD numero VARCHAR(100),
+ADD cidade VARCHAR(100),
+ADD estado VARCHAR(100);
 
 -- Copia os dados da tabela original para a nova tabela
 UPDATE usuarios
